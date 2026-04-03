@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sameersuryavanshi88.github.io/sitemap.xml
+Sitemap: https://sameer-999.github.io/Trading-Journal-AI/sitemap.xml
