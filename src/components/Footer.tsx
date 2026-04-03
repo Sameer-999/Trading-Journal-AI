@@ -1,5 +1,5 @@
 import React from 'react';
-import { TrendingUp } from 'lucide-react';
+import Logo from './Logo';
 
 export default function Footer() {
   return (
@@ -7,11 +7,8 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
           <div className="flex flex-col items-center md:items-start gap-4">
-            <a href="/" className="flex items-center gap-2">
-              <div className="bg-blue-600 p-2 rounded-lg">
-                <TrendingUp className="w-5 h-5 text-white" />
-              </div>
-              <span className="text-xl font-bold tracking-tight text-slate-900">Trading Journal</span>
+            <a href="/">
+              <Logo />
             </a>
             <p className="text-slate-400 text-sm">
               Helping traders build consistency since 2024.

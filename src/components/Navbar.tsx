@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { TrendingUp, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { cn } from '../lib/utils';
+
+import Logo from './Logo';
 
 const navLinks = [
   { name: 'Features', href: '#features' },
@@ -28,11 +30,8 @@ export default function Navbar() {
       isScrolled ? "bg-white/80 backdrop-blur-md border-b border-slate-200 py-3" : "bg-transparent"
     )}>
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        <a href="/" className="flex items-center gap-2 group">
-          <div className="bg-blue-600 p-2 rounded-lg group-hover:scale-110 transition-transform">
-            <TrendingUp className="w-5 h-5 text-white" />
-          </div>
-          <span className="text-xl font-bold tracking-tight text-slate-900">Trading Journal</span>
+        <a href="/">
+          <Logo />
         </a>
 
         {/* Desktop Links */}
