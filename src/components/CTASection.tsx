@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
 import { ChevronRight } from 'lucide-react';
 
@@ -30,9 +31,12 @@ export default function CTA() {
             >
               Log In <ChevronRight className="w-4 h-4" />
             </a>
-            <button className="w-full sm:w-auto px-10 py-5 bg-white/10 text-white font-bold rounded-2xl border border-white/20 hover:bg-white/20 transition-all hover:scale-105 active:scale-95">
+            <Link 
+              to="/about"
+              className="w-full sm:w-auto px-10 py-5 bg-white/10 text-white font-bold rounded-2xl border border-white/20 hover:bg-white/20 transition-all hover:scale-105 active:scale-95 flex items-center justify-center"
+            >
               Learn More
-            </button>
+            </Link>
           </div>
         </div>
       </motion.div>
