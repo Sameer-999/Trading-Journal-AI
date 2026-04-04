@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
 import { ChevronRight, Play } from 'lucide-react';
 import DashboardPreview from './DashboardPreview';
@@ -52,9 +53,12 @@ export default function Hero() {
           >
             Log In <ChevronRight className="w-4 h-4" />
           </a>
-          <button className="w-full sm:w-auto px-8 py-4 bg-white hover:bg-slate-50 text-slate-900 font-bold rounded-2xl border border-slate-200 flex items-center justify-center gap-2 transition-all hover:scale-105 active:scale-95">
+          <Link 
+            to="/#features"
+            className="w-full sm:w-auto px-8 py-4 bg-white hover:bg-slate-50 text-slate-900 font-bold rounded-2xl border border-slate-200 flex items-center justify-center gap-2 transition-all hover:scale-105 active:scale-95"
+          >
             <Play className="w-4 h-4 text-blue-600" /> See Features
-          </button>
+          </Link>
         </motion.div>
 
         <DashboardPreview />
