@@ -8,7 +8,7 @@ const plans: PricingPlan[] = [
   {
     id: 'daily',
     name: 'Daily',
-    price: '₹19',
+    price: '₹20',
     period: '/day',
     description: 'Try it out with no commitment',
     features: ['Unlimited trade logs', 'Basic analytics', '1 strategy'],
@@ -16,7 +16,7 @@ const plans: PricingPlan[] = [
   {
     id: 'weekly',
     name: 'Weekly',
-    price: '₹59',
+    price: '₹60',
     period: '/week',
     description: 'Great for active trading weeks',
     features: ['Unlimited trade logs', 'Full analytics suite', '3 strategies', 'Export reports'],
@@ -24,7 +24,7 @@ const plans: PricingPlan[] = [
   {
     id: 'monthly',
     name: 'Monthly',
-    price: '₹299',
+    price: '₹200',
     period: '/month',
     description: 'Most popular for serious traders',
     features: ['Unlimited trade logs', 'Full analytics suite', 'Unlimited strategies', 'Export reports', 'Priority support'],
