@@ -1,10 +1,17 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'motion/react';
 import { Mail, MessageSquare, HelpCircle, Send } from 'lucide-react';
 
 export default function Contact() {
   return (
-    <div className="pt-32 pb-20">
+    <>
+      <Helmet>
+        <title>Contact Us | Get Support for Your Trading Journey</title>
+        <meta name="description" content="Have questions? Our support team is here to help you. Reach out to us via email, live chat, or our help center." />
+        <link rel="canonical" href="https://sameer-999.github.io/Trading-Journal-AI/#/contact" />
+      </Helmet>
+      <div className="pt-32 pb-20">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           <motion.div
@@ -108,5 +115,6 @@ export default function Contact() {
         </div>
       </div>
     </div>
+    </>
   );
 }

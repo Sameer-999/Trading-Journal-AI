@@ -1,10 +1,17 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'motion/react';
 import { Target, TrendingUp, Shield, Users } from 'lucide-react';
 
 export default function About() {
   return (
-    <div className="pt-32 pb-20">
+    <>
+      <Helmet>
+        <title>About Us | Our Mission to Help Traders Succeed</title>
+        <meta name="description" content="Learn about the mission and vision behind Trading Journal. We're dedicated to providing traders with the tools they need to achieve consistent profitability." />
+        <link rel="canonical" href="https://sameer-999.github.io/Trading-Journal-AI/#/about" />
+      </Helmet>
+      <div className="pt-32 pb-20">
       <div className="max-w-4xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -54,5 +61,6 @@ export default function About() {
         </motion.div>
       </div>
     </div>
+    </>
   );
 }

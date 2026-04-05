@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'motion/react';
 import { Shield, Lock, Eye, FileText } from 'lucide-react';
 
@@ -27,7 +28,13 @@ export default function PrivacyPolicy() {
   ];
 
   return (
-    <div className="pt-32 pb-20">
+    <>
+      <Helmet>
+        <title>Privacy Policy | Your Data Security is Our Priority</title>
+        <meta name="description" content="Read our privacy policy to understand how we protect your trading data and personal information. We're committed to transparency and security." />
+        <link rel="canonical" href="https://sameer-999.github.io/Trading-Journal-AI/#/privacy" />
+      </Helmet>
+      <div className="pt-32 pb-20">
       <div className="max-w-4xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -90,5 +97,6 @@ export default function PrivacyPolicy() {
         </motion.div>
       </div>
     </div>
+    </>
   );
 }
