@@ -3,10 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Search Engine Verification (Must be high in head) -->
+    <meta name="google-site-verification" content="I20eEkvRehJh3Wm4EVx7ZF24adIir0mikRZ4xWu5VqM" />
+    <meta name="msvalidate.01" content="2D1082ACC83D17CA0D53253D29C14373" />
+    
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>Trading Journal | Track. Analyze. Grow.</title>
     <link rel="canonical" href="https://sameer-999.github.io/Trading-Journal-AI/" />
     <meta name="description" content="A powerful trading journal designed to help traders build consistency, spot patterns, and grow their edge through data-driven insights." />
+    <meta name="keywords" content="trading journal, trade tracker, trading analytics, forex journal, crypto journal, trading performance" />
+    <meta name="robots" content="index, follow" />
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large" />
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
@@ -17,24 +25,50 @@
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary" />
-    <meta property="twitter:url" content="https://sameer-999.github.io/Trading-Journal-AI/" />
     <meta property="twitter:title" content="Trading Journal | Track. Analyze. Grow." />
     <meta property="twitter:description" content="Master your trading with data-driven insights. Track every trade, analyze performance, and grow your edge." />
     <meta property="twitter:image" content="https://sameer-999.github.io/Trading-Journal-AI/favicon.svg" />
 
-    <meta name="keywords" content="trading journal, trade tracker, trading analytics, forex journal, crypto journal, trading performance" />
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-    
-    <!-- Google Search Console Verification -->
-    <meta name="google-site-verification" content="I20eEkvRehJh3Wm4EVx7ZF24adIir0mikRZ4xWu5VqM" />
-
-    <!-- Bing Webmaster Tools Verification -->
-    <meta name="msvalidate.01" content="2D1082ACC83D17CA0D53253D29C14373" />
     <meta name="msapplication-TileColor" content="#3b82f6" />
     <meta name="theme-color" content="#ffffff" />
+
+    <!-- Structured Data (Static for better indexing) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Trading Journal",
+        "operatingSystem": "Web",
+        "applicationCategory": "FinanceApplication",
+        "description": "A powerful trading journal to help you become a consistently profitable trader. Log trades, spot patterns, and grow your edge.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      }
+    </script>
   </head>
   <body>
-    <div id="root"></div>
+    <noscript>
+      <div style="padding: 20px; text-align: center; font-family: sans-serif;">
+        <h1>Trading Journal</h1>
+        <p>A powerful trading journal designed to help traders build consistency, spot patterns, and grow their edge through data-driven insights.</p>
+        <p>Please enable JavaScript to use the full features of this application.</p>
+      </div>
+    </noscript>
+    <div id="root">
+      <!-- Pre-render skeleton for crawlers -->
+      <div style="display:none">
+        <h1>Trading Journal | Track. Analyze. Grow.</h1>
+        <p>Master your trading with data-driven insights. Track every trade, analyze performance, and grow your edge.</p>
+        <nav>
+          <a href="#/about">About</a>
+          <a href="#/contact">Contact</a>
+          <a href="#/privacy">Privacy Policy</a>
+        </nav>
+      </div>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
