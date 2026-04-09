@@ -106,6 +106,20 @@ export default function Home() {
         <title>Trading Journal | Master Your Trading Performance</title>
         <meta name="description" content="The ultimate trading journal for serious traders. Track your trades, analyze performance, and identify your edge with data-driven insights." />
         <link rel="canonical" href="https://sameer-999.github.io/Trading-Journal-AI/" />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://sameer-999.github.io/Trading-Journal-AI/" />
+        <meta property="og:title" content="Trading Journal | Master Your Trading Performance" />
+        <meta property="og:description" content="The ultimate trading journal for serious traders. Track your trades, analyze performance, and identify your edge with data-driven insights." />
+        <meta property="og:image" content="https://sameer-999.github.io/Trading-Journal-AI/favicon.svg" />
+
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary" />
+        <meta property="twitter:title" content="Trading Journal | Master Your Trading Performance" />
+        <meta property="twitter:description" content="The ultimate trading journal for serious traders. Track your trades, analyze performance, and identify your edge with data-driven insights." />
+        <meta property="twitter:image" content="https://sameer-999.github.io/Trading-Journal-AI/favicon.svg" />
+
         <script type="application/ld+json">
           {JSON.stringify(softwareSchema)}
         </script>

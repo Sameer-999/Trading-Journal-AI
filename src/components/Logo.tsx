@@ -18,7 +18,6 @@ export default function Logo({ className, iconOnly = false }: LogoProps) {
           role="img"
           aria-label="Trading Journal Logo"
         >
-          <title>Trading Journal Logo</title>
           <defs>
             <linearGradient id="logo-gradient-comp" x1="0%" y1="0%" x2="100%" y2="100%">
               <stop offset="0%" stopColor="#4F46E5" />

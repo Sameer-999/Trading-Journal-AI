@@ -10,6 +10,10 @@ export default function Contact() {
         <title>Contact Us | Get Support for Your Trading Journey</title>
         <meta name="description" content="Have questions? Our support team is here to help you. Reach out to us via email, live chat, or our help center." />
         <link rel="canonical" href="https://sameer-999.github.io/Trading-Journal-AI/#/contact" />
+        <meta property="og:title" content="Contact Us | Trading Journal" />
+        <meta property="og:description" content="Have questions? Our support team is here to help you. Reach out to us via email, live chat, or our help center." />
+        <meta property="twitter:title" content="Contact Us | Trading Journal" />
+        <meta property="twitter:description" content="Have questions? Our support team is here to help you. Reach out to us via email, live chat, or our help center." />
       </Helmet>
       <div className="pt-32 pb-20">
       <div className="max-w-7xl mx-auto px-6">

@@ -33,6 +33,10 @@ export default function PrivacyPolicy() {
         <title>Privacy Policy | Your Data Security is Our Priority</title>
         <meta name="description" content="Read our privacy policy to understand how we protect your trading data and personal information. We're committed to transparency and security." />
         <link rel="canonical" href="https://sameer-999.github.io/Trading-Journal-AI/#/privacy" />
+        <meta property="og:title" content="Privacy Policy | Trading Journal" />
+        <meta property="og:description" content="Read our privacy policy to understand how we protect your trading data and personal information. We're committed to transparency and security." />
+        <meta property="twitter:title" content="Privacy Policy | Trading Journal" />
+        <meta property="twitter:description" content="Read our privacy policy to understand how we protect your trading data and personal information. We're committed to transparency and security." />
       </Helmet>
       <div className="pt-32 pb-20">
       <div className="max-w-4xl mx-auto px-6">
