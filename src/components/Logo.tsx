@@ -10,7 +10,14 @@ export default function Logo({ className, iconOnly = false }: LogoProps) {
   return (
     <div className={cn("flex items-center gap-2 group", className)}>
       <div className="relative w-10 h-10 shrink-0 group-hover:scale-110 transition-transform duration-300">
-        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full drop-shadow-sm">
+        <svg 
+          viewBox="0 0 32 32" 
+          fill="none" 
+          xmlns="http://www.w3.org/2000/svg" 
+          className="w-full h-full drop-shadow-sm"
+          role="img"
+          aria-label="Trading Journal Logo"
+        >
           <title>Trading Journal Logo</title>
           <defs>
             <linearGradient id="logo-gradient-comp" x1="0%" y1="0%" x2="100%" y2="100%">

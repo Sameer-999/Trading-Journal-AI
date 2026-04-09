@@ -28,6 +28,31 @@ export default function Home() {
     }
   };
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://sameer-999.github.io/Trading-Journal-AI/"
+      }
+    ]
+  };
+
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": "https://sameer-999.github.io/Trading-Journal-AI/",
+    "name": "Trading Journal",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://sameer-999.github.io/Trading-Journal-AI/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  };
+
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -83,6 +108,12 @@ export default function Home() {
         <link rel="canonical" href="https://sameer-999.github.io/Trading-Journal-AI/" />
         <script type="application/ld+json">
           {JSON.stringify(softwareSchema)}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbSchema)}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify(websiteSchema)}
         </script>
         <script type="application/ld+json">
           {JSON.stringify(faqSchema)}
