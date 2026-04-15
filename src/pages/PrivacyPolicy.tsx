@@ -38,17 +38,17 @@ export default function PrivacyPolicy() {
         <meta property="twitter:title" content="Privacy Policy | Trading Journal" />
         <meta property="twitter:description" content="Read our privacy policy to understand how we protect your trading data and personal information. We're committed to transparency and security." />
       </Helmet>
-      <div className="pt-20 pb-16">
-      <div className="max-w-2xl mx-auto px-6">
+      <div className="pt-32 pb-20">
+      <div className="max-w-4xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900 mb-6">
+          <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6">
             Privacy Policy
           </h1>
-          <p className="text-lg text-slate-600 leading-relaxed mb-12">
+          <p className="text-xl text-slate-600 leading-relaxed mb-12">
             Last updated: April 4, 2026. Your privacy is important to us. This policy explains 
             how we collect, use, and safeguard your information when you use our trading journal.
           </p>

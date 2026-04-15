@@ -32,15 +32,15 @@ const features: Feature[] = [
 
 export default function Features() {
   return (
-    <section id="features" className="py-20 bg-white">
-      <div className="max-w-5xl mx-auto px-6">
+    <section id="features" className="py-24 bg-white">
+      <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
-          <span className="text-blue-600 font-bold text-[10px] uppercase tracking-widest mb-4 block">Features</span>
-          <h2 className="text-2xl md:text-3xl font-extrabold text-slate-900 mb-6">
+          <span className="text-blue-600 font-bold text-xs uppercase tracking-widest mb-4 block">Features</span>
+          <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6">
             Everything you need to <span className="text-blue-600">trade</span><br />
             <span className="text-emerald-500">smarter</span>
           </h2>
-          <p className="max-w-xl mx-auto text-slate-500 text-base">
+          <p className="max-w-2xl mx-auto text-slate-500 text-lg">
             Built by traders, for traders. Every feature is designed to close the gap between where you are and where you want to be.
           </p>
         </div>

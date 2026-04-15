@@ -15,17 +15,17 @@ export default function About() {
         <meta property="twitter:title" content="About Us | Trading Journal" />
         <meta property="twitter:description" content="Learn about the mission and vision behind Trading Journal. We're dedicated to providing traders with the tools they need to achieve consistent profitability." />
       </Helmet>
-      <div className="pt-20 pb-16">
-      <div className="max-w-2xl mx-auto px-6">
+      <div className="pt-32 pb-20">
+      <div className="max-w-4xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900 mb-6">
+          <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6">
             About Trading Journal
           </h1>
-          <p className="text-lg text-slate-600 leading-relaxed mb-12">
+          <p className="text-xl text-slate-600 leading-relaxed mb-12">
             We believe that every trader has the potential to be consistently profitable. 
             The difference between those who succeed and those who struggle is often just 
             a matter of data, discipline, and self-awareness.

@@ -5,23 +5,23 @@ import { ChevronRight } from 'lucide-react';
 
 export default function CTA() {
   return (
-    <section className="py-20 px-6">
+    <section className="py-24 px-6">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
-        className="max-w-5xl mx-auto rounded-[40px] bg-gradient-to-br from-blue-600 via-blue-500 to-emerald-500 p-10 md:p-20 text-center text-white relative overflow-hidden shadow-2xl shadow-blue-200"
+        className="max-w-7xl mx-auto rounded-[40px] bg-gradient-to-br from-blue-600 via-blue-500 to-emerald-500 p-12 md:p-24 text-center text-white relative overflow-hidden shadow-2xl shadow-blue-200"
       >
         {/* Decorative Circles */}
         <div className="absolute top-0 right-0 w-96 h-96 bg-white/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-emerald-400/20 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
- 
+
         <div className="relative z-10">
-          <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight mb-8">
+          <h2 className="text-4xl md:text-6xl font-extrabold tracking-tight mb-8">
             Start Your Trading<br />Journey Today
           </h2>
-          <p className="max-w-xl mx-auto text-base md:text-lg text-blue-50 mb-12 leading-relaxed">
+          <p className="max-w-2xl mx-auto text-lg md:text-xl text-blue-50 mb-12 leading-relaxed">
             Join thousands of traders who are already using Trading Journal to build consistency and confidence in their trading.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

@@ -9,7 +9,7 @@ interface LogoProps {
 export default function Logo({ className, iconOnly = false }: LogoProps) {
   return (
     <div className={cn("flex items-center gap-2 group", className)}>
-      <div className="relative w-8 h-8 shrink-0 group-hover:scale-110 transition-transform duration-300">
+      <div className="relative w-10 h-10 shrink-0 group-hover:scale-110 transition-transform duration-300">
         <svg 
           viewBox="0 0 32 32" 
           fill="none" 
