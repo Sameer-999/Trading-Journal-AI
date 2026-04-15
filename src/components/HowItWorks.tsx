@@ -29,11 +29,11 @@ const steps: Step[] = [
 
 export default function HowItWorks() {
   return (
-    <section id="how-it-works" className="py-24 bg-slate-50/50">
-      <div className="max-w-7xl mx-auto px-6">
-        <div className="text-center mb-20">
-          <span className="text-blue-600 font-bold text-xs uppercase tracking-widest mb-4 block">How It Works</span>
-          <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6">
+    <section id="how-it-works" className="py-20 bg-slate-50/50">
+      <div className="max-w-5xl mx-auto px-6">
+        <div className="text-center mb-16">
+          <span className="text-blue-600 font-bold text-[10px] uppercase tracking-widest mb-4 block">How It Works</span>
+          <h2 className="text-2xl md:text-3xl font-extrabold text-slate-900 mb-6">
             Three steps to <span className="text-blue-600">consistent</span><br />
             <span className="text-emerald-500">profits</span>
           </h2>
@@ -59,7 +59,7 @@ export default function HowItWorks() {
                 </div>
               </div>
               <h3 className="text-2xl font-bold text-slate-900 mb-4 mt-4">{step.title}</h3>
-              <p className="text-slate-500 leading-relaxed max-w-sm">
+              <p className="text-slate-500 leading-relaxed max-w-xs">
                 {step.description}
               </p>
             </motion.div>

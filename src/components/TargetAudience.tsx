@@ -36,14 +36,14 @@ const traderTypes: TraderType[] = [
 
 export default function TargetAudience() {
   return (
-    <section id="traders" className="py-24 bg-white">
-      <div className="max-w-7xl mx-auto px-6">
+    <section id="traders" className="py-20 bg-white">
+      <div className="max-w-5xl mx-auto px-6">
         <div className="text-center mb-16">
-          <span className="text-blue-600 font-bold text-xs uppercase tracking-widest mb-4 block">Built For You</span>
-          <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6">
+          <span className="text-blue-600 font-bold text-[10px] uppercase tracking-widest mb-4 block">Built For You</span>
+          <h2 className="text-2xl md:text-3xl font-extrabold text-slate-900 mb-6">
             Designed for <span className="text-blue-600">every</span> <span className="text-emerald-500">trader</span>
           </h2>
-          <p className="max-w-2xl mx-auto text-slate-500 text-lg">
+          <p className="max-w-xl mx-auto text-slate-500 text-base">
             No matter your market or style, Trading Journal adapts to your workflow.
           </p>
         </div>

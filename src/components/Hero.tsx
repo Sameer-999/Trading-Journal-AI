@@ -6,36 +6,36 @@ import DashboardPreview from './DashboardPreview';
 
 export default function Hero() {
   return (
-    <section className="relative pt-32 pb-20 overflow-hidden">
+    <section className="relative pt-20 pb-16 overflow-hidden">
       {/* Background Glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-full bg-blue-50/50 blur-3xl -z-10 rounded-full" />
       
-      <div className="max-w-7xl mx-auto px-6 text-center">
+      <div className="max-w-5xl mx-auto px-6 text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-100 text-blue-600 text-xs font-bold uppercase tracking-wider mb-8"
+          className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-100 text-blue-600 text-[10px] font-bold uppercase tracking-wider mb-8"
         >
           <div className="w-1.5 h-1.5 rounded-full bg-blue-600 animate-pulse" />
           Track. Analyze. Grow.
         </motion.div>
-
+ 
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
-          className="text-5xl md:text-7xl font-extrabold text-slate-900 tracking-tight leading-[1.1] mb-6"
+          className="text-3xl md:text-5xl font-extrabold text-slate-900 tracking-tight leading-[1.1] mb-6"
         >
           Track. Analyze.<br />
           <span className="bg-gradient-to-r from-blue-600 via-blue-500 to-emerald-500 bg-clip-text text-transparent">Improve</span> Your Trading.
         </motion.h1>
-
+ 
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="max-w-2xl mx-auto text-lg md:text-xl text-slate-500 leading-relaxed mb-10"
+          className="max-w-xl mx-auto text-base md:text-lg text-slate-500 leading-relaxed mb-10"
         >
           A powerful trading journal to help you become a consistently profitable trader. 
           Log trades, spot patterns, and grow your edge.

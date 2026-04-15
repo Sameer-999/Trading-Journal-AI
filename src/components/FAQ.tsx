@@ -29,12 +29,12 @@ export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
-    <section className="py-24 bg-white">
-      <div className="max-w-3xl mx-auto px-6">
+    <section className="py-20 bg-white">
+      <div className="max-w-2xl mx-auto px-6">
         <div className="text-center mb-16">
-          <span className="text-blue-600 font-bold text-xs uppercase tracking-widest mb-4 block">FAQ</span>
-          <h2 className="text-4xl font-extrabold text-slate-900 mb-6">Frequently Asked Questions</h2>
-          <p className="text-slate-500 text-lg">Everything you need to know about our trading journal.</p>
+          <span className="text-blue-600 font-bold text-[10px] uppercase tracking-widest mb-4 block">FAQ</span>
+          <h2 className="text-2xl font-extrabold text-slate-900 mb-6">Frequently Asked Questions</h2>
+          <p className="text-slate-500 text-base">Everything you need to know about our trading journal.</p>
         </div>
 
         <div className="space-y-4">

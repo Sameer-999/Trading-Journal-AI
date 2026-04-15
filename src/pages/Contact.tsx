@@ -15,18 +15,18 @@ export default function Contact() {
         <meta property="twitter:title" content="Contact Us | Trading Journal" />
         <meta property="twitter:description" content="Have questions? Our support team is here to help you. Reach out to us via email, live chat, or our help center." />
       </Helmet>
-      <div className="pt-32 pb-20">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="pt-20 pb-16">
+      <div className="max-w-5xl mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6">
+            <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900 mb-6">
               Get in Touch
             </h1>
-            <p className="text-xl text-slate-600 leading-relaxed mb-12">
+            <p className="text-lg text-slate-600 leading-relaxed mb-12">
               Have questions about our trading journal or need help with your account? 
               Our team is here to support you on your journey to profitability.
             </p>

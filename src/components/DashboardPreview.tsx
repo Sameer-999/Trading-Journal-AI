@@ -51,7 +51,7 @@ export default function DashboardPreview() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className="w-full max-w-5xl mx-auto mt-16 bg-slate-50/50 rounded-3xl border border-slate-200 p-4 md:p-8 shadow-2xl relative overflow-hidden"
+      className="w-full max-w-3xl mx-auto mt-16 bg-slate-50/50 rounded-3xl border border-slate-200 p-4 md:p-8 shadow-2xl relative overflow-hidden"
     >
       {/* Window Controls */}
       <div className="flex items-center gap-2 mb-8">
@@ -127,11 +127,11 @@ export default function DashboardPreview() {
         <div className="flex flex-col gap-4">
           <div className="bg-white p-6 rounded-2xl border border-blue-100 shadow-sm flex flex-col items-center justify-center">
             <span className="text-xs font-medium text-blue-500 mb-1">Win Rate:</span>
-            <span className="text-3xl font-bold text-blue-600">72%</span>
+            <span className="text-2xl font-bold text-blue-600">72%</span>
           </div>
           <div className="bg-white p-6 rounded-2xl border border-emerald-100 shadow-sm flex flex-col items-center justify-center">
             <span className="text-xs font-medium text-emerald-500 mb-1">Profit Factor:</span>
-            <span className="text-3xl font-bold text-emerald-600">1.45</span>
+            <span className="text-2xl font-bold text-emerald-600">1.45</span>
           </div>
         </div>
 
@@ -164,7 +164,7 @@ export default function DashboardPreview() {
         {/* Total P&L */}
         <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm flex flex-col items-center justify-center">
            <span className="text-sm font-medium text-slate-500 mb-1">Total P&L:</span>
-           <span className="text-3xl font-bold text-emerald-500">+$15,200.50</span>
+           <span className="text-2xl font-bold text-emerald-500">+$15,200.50</span>
         </div>
 
         {/* Trade Log */}

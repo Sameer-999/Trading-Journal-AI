@@ -7,7 +7,7 @@ import { cn } from '../lib/utils';
 const plans: PricingPlan[] = [
   {
     id: 'daily',
-    name: 'Daily',
+    name: 'Starter',
     price: '₹19',
     period: '/day',
     description: 'Try it out with no commitment',
@@ -15,7 +15,7 @@ const plans: PricingPlan[] = [
   },
   {
     id: 'weekly',
-    name: 'Weekly',
+    name: 'Growth',
     price: '₹59',
     period: '/week',
     description: 'Great for active trading weeks',
@@ -23,7 +23,7 @@ const plans: PricingPlan[] = [
   },
   {
     id: 'monthly',
-    name: 'Monthly',
+    name: 'Pro',
     price: '₹299',
     period: '/month',
     description: 'Most popular for serious traders',
@@ -32,7 +32,7 @@ const plans: PricingPlan[] = [
   },
   {
     id: 'yearly',
-    name: 'Yearly',
+    name: 'Elite',
     price: '₹2,299',
     period: '/year',
     description: 'Best value — save over 4 months',
@@ -43,14 +43,14 @@ const plans: PricingPlan[] = [
 
 export default function Pricing() {
   return (
-    <section id="pricing" className="py-24 bg-slate-50/50">
-      <div className="max-w-7xl mx-auto px-6">
+    <section id="pricing" className="py-20 bg-slate-50/50">
+      <div className="max-w-5xl mx-auto px-6">
         <div className="text-center mb-16">
-          <span className="text-blue-600 font-bold text-xs uppercase tracking-widest mb-4 block">Pricing</span>
-          <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6">
+          <span className="text-blue-600 font-bold text-[10px] uppercase tracking-widest mb-4 block">Pricing</span>
+          <h2 className="text-2xl md:text-3xl font-extrabold text-slate-900 mb-6">
             Simple, <span className="text-blue-600">transparent</span> pricing
           </h2>
-          <p className="max-w-2xl mx-auto text-slate-500 text-lg">
+          <p className="max-w-xl mx-auto text-slate-500 text-base">
             No hidden fees. Pick the plan that fits your trading style.
           </p>
         </div>
