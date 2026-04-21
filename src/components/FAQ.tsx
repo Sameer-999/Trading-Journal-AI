@@ -4,24 +4,28 @@ import { ChevronDown, ChevronUp } from 'lucide-react';
 
 const faqs = [
   {
-    question: "What is a trading journal?",
-    answer: "A trading journal is a log that you use to record your trades. It helps you track your performance, identify patterns in your trading behavior, and improve your overall strategy by learning from both your wins and losses."
+    question: "What is an AI trading journal and why do I need one?",
+    answer: "An AI trading journal is more than just a notebook; it is a sophisticated data analysis tool. It records every detail of your trades and uses machine learning patterns to identify your behavioral biases. If you want to achieve professional consistency, you need to understand the mathematical edge of your strategies."
   },
   {
-    question: "Why should I use an online trading journal instead of Excel?",
-    answer: "While Excel is powerful, an online trading journal like ours automates the analytics process. We provide real-time performance metrics, visual charts, and strategy insights that would take hours to build and maintain in a spreadsheet."
+    question: "How does this compare to traditional Excel or Google Sheets?",
+    answer: "While Excel is flexible, it requires manual setup and constant maintenance. Our AI journal automates all calculations, generates professional-grade visual reports instantly, and provides real-time risk-adjusted metrics like the Sortino ratio and Profit Factor without any complex formulas."
   },
   {
-    question: "Is my trading data secure?",
-    answer: "Yes, security is our top priority. We use industry-standard encryption and secure server environments to ensure that your trading logs and personal information are always protected."
+    question: "Is my sensitive trading data and capital information secure?",
+    answer: "Absolutely. We utilize bank-grade 256-bit encryption for all data transmissions. Your trading logs are stored in isolated, secure server environments, and we never share your specific strategies or performance data with third parties."
   },
   {
-    question: "Can I track different types of assets?",
-    answer: "Absolutely! Our journal is designed for versatility. You can track Forex, Crypto, Stocks, Options, and more. We provide specialized fields for each asset class to ensure you capture the right data."
+    question: "Which markets and asset classes can I track?",
+    answer: "Our platform is built for versatility. You can track a wide range of assets including Forex pairs, Cryptocurrencies, Global Stocks, Commodities, and Options. We offer custom fields for different execution styles like scalping, swing trading, or long-term investing."
   },
   {
-    question: "How does the analytics help me improve?",
-    answer: "Our analytics engine identifies your most profitable setups, sessions, and instruments. By seeing exactly where your edge lies, you can focus on what works and eliminate the mistakes that are costing you money."
+    question: "How quickly will I see improvements in my trading?",
+    answer: "Most users begin identifying costly emotional mistakes within the first 20-30 logged trades. By reviewing your 'Smart Insights' weekly, you can systematically eliminate losing setups and focus your capital on high-probability opportunities."
+  },
+  {
+    question: "Can I export my data for tax or secondary analysis?",
+    answer: "Yes, you can export your entire trading history at any time. We support multiple common formats like CSV and PDF, allowing you to share performance reports with mentors, partners, or use them for detailed tax preparation."
   }
 ];
 

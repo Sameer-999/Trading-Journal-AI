@@ -6,26 +6,26 @@ import { Feature } from '../types';
 const features: Feature[] = [
   {
     id: 'tracking',
-    title: 'Trade Tracking',
-    description: 'Log every entry, exit, and P&L with ease. Capture the details that matter — instrument, setup, risk, and outcome.',
+    title: 'Precision Trade Tracking',
+    description: 'Log every entry, exit, and P&L with extreme detail. Capture instrument-specific metrics, setup types, emotional state, and risk-management parameters to build a comprehensive trading history.',
     icon: <LineChart className="w-6 h-6 text-blue-600" />,
   },
   {
     id: 'analytics',
-    title: 'Performance Analytics',
-    description: 'Visualize your win rate, risk-reward ratio, drawdown, and equity curve. Know exactly where you stand.',
+    title: 'Advanced Performance Analytics',
+    description: 'Go beyond basic stats with deep analysis of your win rate, expectancy, max drawdown, and profit factor. Our interactive equity curves help you visualize your growth and market outliers.',
     icon: <BarChart3 className="w-6 h-6 text-emerald-500" />,
   },
   {
     id: 'insights',
-    title: 'Strategy Insights',
-    description: 'Identify which strategies, setups, and sessions deliver results — and which ones hold you back.',
+    title: 'Actionable Strategy Insights',
+    description: 'Our AI engine identifies which setups and trading sessions deliver the highest probabilistic outcomes. Learn exactly when to push your advantage and when to step away from the terminal.',
     icon: <Lightbulb className="w-6 h-6 text-amber-500" />,
   },
   {
     id: 'dashboard',
-    title: 'Clean Dashboard',
-    description: 'A beautifully designed interface that makes journaling fast and frictionless. No clutter, just clarity.',
+    title: 'Professional Grade Dashboard',
+    description: 'Manage your trading business via a sleek, intuitive interface. Designed for rapid data entry and frictionless review sessions, so you can spend more time trading and less time spreadsheets.',
     icon: <Layout className="w-6 h-6 text-purple-500" />,
   },
 ];

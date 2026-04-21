@@ -28,7 +28,7 @@ export default function Hero() {
           className="text-5xl md:text-7xl font-extrabold text-slate-900 tracking-tight leading-[1.1] mb-6"
         >
           Track. Analyze.<br />
-          <span className="bg-gradient-to-r from-blue-600 via-blue-500 to-emerald-500 bg-clip-text text-transparent">Improve</span> Your Trading.
+          <span className="bg-gradient-to-r from-blue-600 via-blue-500 to-emerald-500 bg-clip-text text-transparent">AI Trading Journal</span>
         </motion.h1>
 
         <motion.p
@@ -37,8 +37,8 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="max-w-2xl mx-auto text-lg md:text-xl text-slate-500 leading-relaxed mb-10"
         >
-          A powerful trading journal to help you become a consistently profitable trader. 
-          Log trades, spot patterns, and grow your edge.
+          The most advanced AI trading journal to help you become a consistently profitable trader. 
+          Log trades, spot patterns with smart insights, and grow your edge.
         </motion.p>
 
         <motion.div

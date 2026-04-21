@@ -51,7 +51,7 @@ export default function Pricing() {
             Simple, <span className="text-blue-600">transparent</span> pricing
           </h2>
           <p className="max-w-2xl mx-auto text-slate-500 text-lg">
-            No hidden fees. Pick the plan that fits your trading style.
+            Choose the plan that best fits your trading volume and professional needs. We offer flexible options for every stage of your trading career, from beginners to elite quantitative analysts.
           </p>
         </div>
 

@@ -51,15 +51,15 @@ export default function About() {
           </div>
 
           <div className="prose prose-slate max-w-none">
-            <h2 className="text-2xl font-bold text-slate-900 mb-4">Why We Built This</h2>
+            <h2 className="text-2xl font-bold text-slate-900 mb-4">Why We Built the Ultimate AI Trading Journal</h2>
             <p className="text-slate-600 mb-6">
-              Most trading journals are either too complex or too simple. We wanted to build something 
-              that fits right in the middle: powerful enough for professionals, but simple enough 
-              that you'll actually use it every day.
+              Most trading journals are either too complex for daily use or too simple to provide real insights. We wanted to build something that fits right in the middle: powerful enough for professional hedge fund analysts, but simple enough that an individual retail trader will actually use it every single day.
             </p>
             <p className="text-slate-600 mb-6">
-              Trading is 90% psychology. By looking at your data objectively, you can take the 
-              emotion out of the game and start trading like a business.
+              Trading is 90% psychology and 10% strategy. By looking at your data through the lens of artificial intelligence, you can take the emotion out of the game and start trading like a quantitative business. Our platform was designed by a team of software engineers and full-time traders who were tired of manual spreadsheets and missed opportunities.
+            </p>
+            <p className="text-slate-600 mb-12">
+              We leverage data-driven insights to help you identify your "Golden Sessions"—the exact times and market conditions where you are most profitable. By focusing on your strengths and systematically eliminating your weaknesses, you can achieve the exponential growth required to reach your financial goals. Join thousands of traders who have already transformed their P&L through the power of disciplined journaling.
             </p>
           </div>
         </motion.div>
